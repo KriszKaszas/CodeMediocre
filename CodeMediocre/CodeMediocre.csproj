@@ -11,4 +11,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Resources\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\Resources\Coding_Sucks.wmv" />
+  </ItemGroup>
+
 </Project>

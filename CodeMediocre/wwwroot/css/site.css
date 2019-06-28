@@ -90,3 +90,16 @@ body {
     margin-top: 10px;
     text-align: center;
 }
+
+/* Videos page card */
+
+.videos-page-card {
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}

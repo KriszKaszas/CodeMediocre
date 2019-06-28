@@ -20,6 +20,16 @@ namespace CodeMediocre.Controllers
             return View();
         }
 
+        public IActionResult Videos()
+        {
+            return View();
+        }
+
+        public IActionResult VideoPlayer()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

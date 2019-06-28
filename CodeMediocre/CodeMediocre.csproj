@@ -13,12 +13,7 @@
 
 
   <ItemGroup>
-    <Folder Include="wwwroot\Resources\" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <None Include="wwwroot\Resources\Coding_Sucks.wmv" />
+    <Folder Include="wwwroot\resources\thumbnails\" />
   </ItemGroup>
 
 </Project>

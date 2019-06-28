@@ -91,15 +91,45 @@ body {
     text-align: center;
 }
 
-/* Videos page card */
+/* Videos page card and subcards */
 
 .videos-page-card {
     width: 1000px;
     height: auto;
-    background-color: white;
+    background-color: gray;
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     margin: auto;
     margin-top: 50px;
     padding: 20px;
+}
+
+.video-thumbnail-card {
+    width: 200px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 17px;
+    margin-right:17px;
+    margin-top: 50px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 160px;
+    height: 89.92px;
+    margin: auto;
+    display: block;
+    
+    border-radius: 10px;
+}
+
+.thumbnail-title {
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
 }
